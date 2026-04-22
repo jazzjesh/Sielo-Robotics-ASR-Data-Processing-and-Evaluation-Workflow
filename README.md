@@ -88,15 +88,6 @@ The following metrics are used across all model stages:
 
 These metrics help assess both transcription quality and command-level usability.
 
-## Example Early Result
-
-In an early stage-specific evaluation on a test subset:
-
-| Model              | WER  | CER   | Exact Match Accuracy |
-| ------------------ | ---- | ----- | -------------------- |
-| Baseline Whisper   | 0.72 | 0.245 | 0.30                 |
-| Stage 1 Fine-Tuned | 0.29 | 0.124 | 0.73                 |
-
 This early improvement supports the hypothesis that task-specific personalization can significantly enhance ASR performance for impaired speech.
 
 ## Repository Structure
